@@ -1,0 +1,256 @@
+1. define a table using the &lttable&gt and &lt/table&gt tag <br> 
+1a. &lttr&gt is used to define a row, 
+&ltth&gt is used to define the header cell,
+&lttd&gt is used to define the standard data cell, 
+&ltthead&gt is used to group header content,
+&lttfoot&gt is used to group footer content,
+and &ltcaption&gt is used to define the caption for the table <br>
+2. colspan show the number of columns a cell would span 
+while rowspan show the number of rows a cell would span <br>
+3. cell padding is the space between the cell edges and the cell content
+while cell spacing is the space between each cell <br>
+4. the border property is used to defind table borders <br>
+5. border width is measured in px
+
+
+<!DOCTYPE html>
+<html>
+
+<head><link rel='stylesheet' href='styleLab2.css'></head>
+<body>
+
+  <h1>Schedule for Annie Ye - cg3fa22en – Fall, 2022</h1>
+
+  <table>
+    <table border="1" cellspacing="0" align="center">
+    <tr>
+      <th style="background-color:white;"></th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+    <tr>
+      <th>09:30-10:00</th>
+      <td></td>
+      <td rowspan="3" align="center" height="50">DSGN 118 LE
+          <a href="https://sites.google.com/ucsd.edu/dsgn118">Visit DSGN 118 Website</a></td>
+      <td></td>
+      <td rowspan="3" align="center" height="50">DSGN 118 LE
+          <a href="https://sites.google.com/ucsd.edu/dsgn118">Visit DSGN 118 Website</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10:00-10:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10:30-11:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11:00-11:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11:30-12:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12:00-12:30</th>
+      <td></td>
+      <td></td>
+      <td rowspan="4" align="center" height="50">DDI Meeting
+          <img src="https://www.niddk.nih.gov/-/media/Images/Health-Information/Diabetes/diabetes-monitor-fruits-vegetables-small_597x347.png" alt="DDI" style="width:60px;height:60px;"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12:30-01:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>01:00-01:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td rowspan="2" align="center" height="50">DDI Meeting
+          <img src="https://www.niddk.nih.gov/-/media/Images/Health-Information/Diabetes/diabetes-monitor-fruits-vegetables-small_597x347.png" alt="DDI" style="width:60px;height:60px;"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>01:30-02:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>02:00-02:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>02:30-03:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>03:00-03:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>03:30-04:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>04:00-04:30</th>
+      <td rowspan="2" align="center" height="50">ETHN 122 LE</td>
+      <td></td>
+      <td rowspan="2" align="center" height="50">ETHN 122 LE</td>
+      <td></td>
+      <td rowspan="2" align="center" height="50">ETHN 122 LE</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>04:30-05:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>05:00-05:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>05:30-06:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>06:00-06:30</th>
+      <td></td>
+      <td></td>
+      <td rowspan="6" align="center" height="50">ENG 100D LE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>06:30-07:00</th>
+      <td></td>
+      <td rowspan="3" align="center" height="50">COGS 3 LE
+          <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">Visit COGS 3 Website</a></td>
+      <td rowspan="3" align="center" height="50">COGS 3 LE
+          <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">Visit COGS 3 Website</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>07:00-07:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>07:30-08:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>08:00-08:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>08:30-09:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <caption>Weekly Plan</caption>
+  </table>
+
+</body>
+</html>
